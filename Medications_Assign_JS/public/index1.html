@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* Header section */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        /* Main content area */
+        .main-content {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .main-content h2 {
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+        .btn-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .btn-container button {
+            background-color: #4CAF50;
+            color: white;
+            font-size: 18px;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn-container button:hover {
+            background-color: #45a049;
+        }
+        /* Footer section */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Hospital Management System</h1>
+        <p>Your Health, Our Priority</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h2>Welcome to the Hospital Management System</h2>
+        <p>Choose an option below to get started:</p>
+        <div class="btn-container">
+            <button onclick="window.location.href='patient_form.html'">Patient Form</button>
+            <button onclick="window.location.href='C:\Users\I19-labuser166440\Desktop\Medications_Project\public\index.html'">Medication</button>
+            <button onclick="window.location.href='billing.html'">Billing</button>
+            <button onclick="window.location.href='doctors.html'">Doctors</button>
+            <button onclick="window.location.href='appointment.html'">Appointment</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Hospital Management System | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

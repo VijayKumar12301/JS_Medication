@@ -1,0 +1,41 @@
+{
+  "medication": [
+    {
+      "id": "009c",
+      "MedicationsID": "4",
+      "patient": "4",
+      "doctorid": "4",
+      "medicationname": "Atenolol",
+      "dosage": "50 mg",
+      "prescribedate": "2025-01-15"
+    },
+    {
+      "id": "fe19",
+      "MedicationsID": "3",
+      "patient": "3",
+      "doctorid": "3",
+      "medicationname": "Carbamazepine",
+      "dosage": "200 mg",
+      "prescribedate": "2025-01-17"
+    },
+    {
+      "id": "2b72",
+      "MedicationsID": "2",
+      "patient": "2",
+      "doctorid": "2",
+      "medicationname": "Iburprofen",
+      "dosage": "400 mg",
+      "prescribedate": "2025-01-15"
+    },
+    {
+      "id": "8ce8",
+      "MedicationsID": "1",
+      "patient": "1",
+      "doctorid": "1",
+      "medicationname": "Polio Vaccine",
+      "dosage": "oral dose",
+      "prescribedate": "2025-02-14"
+    }
+  ],
+  "department": []
+}
